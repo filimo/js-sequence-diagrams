@@ -5,7 +5,6 @@
  */
 /*global Diagram, Snap, WebFont _ */
 
-var WebFont = require('webfont')
 var Snap = require('snapsvg')
 
 // TODO Move defintion of font onto the <svg>, so it can easily be override at each level
@@ -62,9 +61,9 @@ if (typeof Snap != 'undefined') {
             l[LINETYPE.DOTTED] = '6,2';
 
             var that = this;
-            this.waitForFont(function() {
+            // this.waitForFont(function() {
               resume(that);
-            });
+            // });
           },
 
     // Wait for loading of the font

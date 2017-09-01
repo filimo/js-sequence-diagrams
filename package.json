@@ -6,8 +6,6 @@
   },
   "license": "BSD-2-Clause",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "snapsvg": "^0.5.1"
   },
   "devDependencies": {
     "bower": "1.8.x",
