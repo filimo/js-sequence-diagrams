@@ -5,6 +5,7 @@
  */
 /*global Diagram, Snap, WebFont _ */
 
+var WebFont = require('webfont')
 var Snap = require('snapsvg')
 
 // TODO Move defintion of font onto the <svg>, so it can easily be override at each level
