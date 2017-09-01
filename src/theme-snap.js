@@ -4,6 +4,9 @@
  *  Simplified BSD license.
  */
 /*global Diagram, Snap, WebFont _ */
+
+var Snap = require('snapsvg')
+
 // TODO Move defintion of font onto the <svg>, so it can easily be override at each level
 if (typeof Snap != 'undefined') {
 

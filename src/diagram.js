@@ -4,6 +4,7 @@
  *  Simplified BSD license.
  */
 /*global grammar _ */
+var _ = require('lodash')
 
 function Diagram() {
   this.title   = undefined;
